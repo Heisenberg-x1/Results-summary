@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 60vw;
+    height:50vh;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.div1,.div2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.div1{
+    border-radius: 10px;
+    background: #5236e0;
+    text-align: center;
+    color: rgb(185, 185, 185);
+    padding-top: 25px;
+    position: relative;
+}
+.circle{
+    width: 110px ;
+    height: 110px;
+    border-radius: 100%;
+    position: absolute;
+    left: 34%;
+    background: linear-gradient(#4220b4,#5236e0);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.info{
+    position: absolute;
+    width: 15vw;
+    height: 100px;
+    top: 60%;
+    left: 26%;
+}
+.div2{
+    background: white;
+    box-shadow:5px 5px 7px rgb(204, 204, 204) ;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+}
+.div2{
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.div5,.div6,.div7,.div8{
+    width: 90%;
+    height: 10%;
+    border: 1px solid brown;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    position: relative;
+    
+}
+.mark{
+    height: 100%;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+}
+.div5{
+    background-color: #fdeded;
+}
+.div6{
+    background-color: #faefcb;
+}
+.div9{
+    width: 90%;
+    height: 10%;
+    border: 1px solid brown;
+}
+.fa-bolt{
+    color: #f0605d;
+}
+.fa-clock{
+    color: #e9ca66;
+}
+.fa-comment-dots{
+    color: #14c79a;
+}
